@@ -1,0 +1,19 @@
+<button className="Button" onClick={this.handleShowModal}>
+            + New
+          </button>
+          {toggleMyLists}
+<div className="Layout Left Default" />
+
+<img
+          src={search}
+          alt="search"
+          className="SearchIcon"
+          />
+          <img  
+          src={settings}
+          alt="settings" 
+          className="SettingStyle"/>
+
+          onClick={props.handleListDeletion(props.index)}
+          <div className="Settings"><i class="fas fa-cog"></i></div>
+          

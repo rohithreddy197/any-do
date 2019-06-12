@@ -1,0 +1,26 @@
+
+  .DisplayTasks {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .CurrentTask {
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: normal;
+    cursor: default;
+    color: #a8a1a2;
+    opacity: 1;
+  }
+  
+  .deleteIcon {
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    color: #b8b9ba;
+  }
+  .Block {
+    display: inline-block;
+    position: absolute;
+  }
+  
